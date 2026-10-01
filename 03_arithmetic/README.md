@@ -163,7 +163,7 @@ The 16-bit representation is:
 * PF = 1: The lowest byte `18` contains two `1` bits, giving even parity.
 
 # Sub3.asm
-# Operation
+## Operation
 
 The program first performs:
 0 - 1 = -1
