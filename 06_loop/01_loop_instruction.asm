@@ -15,14 +15,103 @@ repeat:
     mov rdi, 1                  
     mov rsi, message
     mov rdx, length
+    push rcx
     syscall
+    pop rcx
 
+<<<<<<< HEAD
     pop rcx
     loop repeat    
 
 
+=======
+    loop repeat
+    
+>>>>>>> 3fc2663 (Fix loop counter preservation across syscall)
     mov rax, 60          
     xor rdi, rdi
     syscall
 
     
+
+
+
+
+
+
+
+q
+exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
